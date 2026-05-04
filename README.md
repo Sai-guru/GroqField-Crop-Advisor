@@ -1,31 +1,31 @@
-# Jacob Crop AI
+# Jacob Crop AI 🌾
 
 Precision crop recommendation + AI farm advice in a clean, fast full-stack app.
 
 ---
 
-## What this does
+## What this does ✨
 
-- Predicts the best crop from soil + climate inputs
-- Validates the prediction against state-level production data
-- Generates farmer-friendly advice via Groq LLM
+- 🌱 Predicts the best crop from soil + climate inputs
+- 📊 Validates the prediction against state-level production data
+- 🤖 Generates farmer-friendly advice via Groq LLM
 
-## Tech stack
+## Tech stack 🧰
 
-- Backend: Bun + TypeScript + Express
-- ML: Python model (local predictor)
-- Frontend: React + Vite
+- 🧪 Backend: Bun + TypeScript + Express
+- 🧠 ML: Python model (local predictor)
+- 🎨 Frontend: React + Vite
 
-## Repo structure
+## Repo structure 🗂️
 
 - backend-main/ - API + ML runner + production context
 - frontend/ - UI
 
 ---
 
-## Quick start
+## Quick start 🚀
 
-Backend:
+Backend 🧪:
 
 ```bash
 cd backend-main
@@ -34,7 +34,7 @@ GROQ_API_KEY=your_key_here
 bun run dev
 ```
 
-Frontend:
+Frontend 🎨:
 
 ```bash
 cd frontend
@@ -47,20 +47,20 @@ http://127.0.0.1:8000 by default.
 
 ---
 
-## Environment variables
+## Environment variables 🔐
 
-Backend:
+Backend 🧪:
 
 - GROQ_API_KEY - required for AI advice
 - PORT - optional, default 8000
 
-Frontend:
+Frontend 🎨:
 
 - VITE_API_URL - optional, default http://127.0.0.1:8000
 
 ---
 
-## API (backend)
+## API (backend) 📡
 
 - GET / - health check
 - POST /recommend - crop prediction + AI advice

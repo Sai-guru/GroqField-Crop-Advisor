@@ -1,16 +1,16 @@
-# Jacob Crop AI Frontend
+# Jacob Crop AI Frontend 🌾
 
 React + Vite UI for crop recommendations and AI advice.
 
 ---
 
-## Features
+## Features ✨
 
-- Form-based input for soil + climate data
-- Clean output card with predicted crop and advice
-- Dev proxy to backend for local workflow
+- 🧾 Form-based input for soil + climate data
+- 🪴 Clean output card with predicted crop and advice
+- 🔁 Dev proxy to backend for local workflow
 
-## Setup
+## Setup 🚀
 
 ```bash
 cd frontend
@@ -20,7 +20,7 @@ npm run dev
 
 ---
 
-## Configuration
+## Configuration ⚙️
 
 The UI calls POST /recommend. In dev, Vite proxies to the backend at
 http://127.0.0.1:8000.
@@ -33,7 +33,7 @@ VITE_API_URL=http://127.0.0.1:8000
 
 ---
 
-## Scripts
+## Scripts 🧪
 
 - npm run dev - local dev server
 - npm run build - production build

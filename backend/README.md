@@ -1,23 +1,23 @@
-# Jacob Crop AI Backend 🌾
+# Jacob Crop AI Backend
 
 Bun + TypeScript API that runs the ML predictor and returns AI farming advice.
 
 ---
 
-## Features ✨
+## Features
 
-- 🌱 Crop prediction from soil + climate inputs
-- 📊 Regional production context lookup
-- 🤖 AI advice generated via Groq LLM
+- Crop prediction from soil + climate inputs
+- Regional production context lookup
+- AI advice generated via Groq LLM
 
-## Requirements 🧰
+## Requirements
 
 - Bun 1.3+
 - Python 3.x (for the ML predictor)
 
 ---
 
-## Setup 🚀
+## Setup
 
 Install dependencies:
 
@@ -48,7 +48,7 @@ bun run dev
 
 ---
 
-## API 📡
+## API
 
 - GET / - health check
 - POST /recommend - prediction + AI advice
@@ -79,7 +79,7 @@ Example response:
 
 ---
 
-## Notes 📝
+## Notes
 
 - The ML runner uses src/ml/venv/bin/python
 - If Python or venv is missing, prediction will fail
