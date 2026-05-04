@@ -1,0 +1,31 @@
+tree -a -I 'node_modules|.git|.venv|venv|env|.env|package.json|package-lock.json|bun.lock|tsconfig*.json|*.log'
+.
+├── data
+│   ├── crop_production.csv
+│   └── Crop_recommendation.csv
+├── .gitignore
+├── ml
+│   ├── crop_model.pkl
+│   ├── predict.py
+│   ├── requirements.txt
+│   └── train.py
+├── README.md
+└── src
+    ├── controllers
+    │   └── recommendController.ts
+    ├── index.ts
+    ├── routes
+    │   └── recommendRoutes.ts
+    └── services
+        ├── adviceService.ts
+        ├── contextService.ts
+        └── mlService.ts
+
+7 directories, 14 files
+
+
+https://www.kaggle.com/datasets/abhinand05/crop-production-in-india
+https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset
+
+Refernce : https://claude.ai/chat/32a46d50-9bb0-4d4b-8d26-fb30f1e05d08
+

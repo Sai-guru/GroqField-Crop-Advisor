@@ -1,0 +1,33 @@
+GroqField/
+│
+├── backend/
+│   ├── data/
+│   │   ├── Crop_recommendation.csv
+│   │   └── crop_production.csv
+│   │
+│   ├── model/
+│   │   ├── train.py            # Train & save ML model
+│   │   └── crop_model.pkl      # Saved trained model (generated)
+│   │
+│   ├── main.py                 # FastAPI app + routes
+│   ├── predictor.py            # Load model, run prediction
+│   ├── groq_advisor.py         # Groq API call for AI reasoning
+│   ├── requirements.txt        # Python dependencies
+│   └── .env                    # GROQ_API_KEY here
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── InputForm.tsx   # Soil/weather input form
+│   │   │   ├── ResultCard.tsx  # Crop result + AI reasoning
+│   │   │   └── Loader.tsx      # Loading state
+│   │   │
+│   │   ├── App.tsx             # Main app
+│   │   ├── api.ts              # Axios calls to backend
+│   │   └── main.tsx
+│   │
+│   ├── index.html
+│   ├── tailwind.config.ts
+│   └── package.json
+│
+└── README.md
